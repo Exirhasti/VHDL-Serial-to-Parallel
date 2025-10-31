@@ -1,0 +1,46 @@
+timestamp=1733500029471
+
+[~A]
+ModifyID=68
+Version=74
+
+[~MFT]
+0=4|0CAD3Q2.mgf|59381|54260
+1=4|1CAD3Q2.mgf|132205|128688
+3=2|3CAD3Q2.mgf|51144|50103
+
+[serialtoparallel]
+A/arch=A/Arch 21|../src/Converter.vhd|18|1*128688
+BinW64/arch=3*50103
+I=0*779
+I/arch=I/Arch 0*58814
+M=11|2|vef|1733159230596|../src/Converter.vhd|0*251*0x958e61c746112f427a7238c0ba6c75bcec767668|0*689*0x23b75c12e3e89f2ef000564498faa8c2
+M/arch=M/Arch 21|2|vef|1733500029156|../src/Converter.vhd|0*57994*0x05f2691e28d5433b769b92bebdc4d49f8016f219|0*58716*0x20116f55b147878295aeff36dce7fc50
+R=../src/Converter.vhd|31
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|b03105ae399206bf1fcb7b8e4019216a9fc1249a31d874d440d27154bcf0fbdd1fefe7f846f41d10be9f8ff42cac3017
+Version/arch=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|907f1eb2ab5faaca81dadc47e735a03a6231ab0f6d52283ccd0fe4244d0b8192
+
+[serialtoparallel_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/TestBench/serialtoparallel_TB.vhd|10|1*130209
+BinW64/tb_architecture=3*51144
+I=0*2606
+I/tb_architecture=I/TB_ARCHITECTURE 0*59069
+M=11|2|vef|1733468288651|../src/TestBench/serialtoparallel_TB.vhd|0*2248*0xef094ca16ce565e0839f93ace51b9b4cd02669ce|0*2493*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|vef|1733500029437|../src/TestBench/serialtoparallel_TB.vhd|0*53236*0x21139c16c33a181da7343bdc89fdc51ce926d0ac|0*54556*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/serialtoparallel_TB.vhd|7
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|b03105ae399206bf1fcb7b8e4019216a0fbb2cbcbb927930c3299ca3fdfc4ba8bacb94f19cc20700f012a13628eefc5b
+Version/tb_architecture=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beafb9ce127a0a790744262bf5088c8861c
+
+[testbench_for_serialtoparallel]
+Configures=serialtoparallel_tb.TB_ARCHITECTURE
+E=1*132205
+I=0*59381
+M=2|2|vef|1733500029440|../src/TestBench/serialtoparallel_TB.vhd|0*49593*0xc08937a434c808310b6ff0f148f13dffa1f8e518|0*49945*0x20116f55b147878295aeff36dce7fc50
+R=../src/TestBench/serialtoparallel_TB.vhd|82
+Version=13.0.375.8320 (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5f464750de50c12845310c809ffc41f6dbc0c8f28f3efdd90089fc54b484d17547e417ba8d339546edc958b605b4c8130
+
+[~U]
+serialtoparallel=SerialToParallel 11|0*0|
+serialtoparallel_tb=11|0*2104|
+testbench_for_serialtoparallel=TESTBENCH_FOR_serialtoparallel 2||
+

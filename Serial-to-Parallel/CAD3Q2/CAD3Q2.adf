@@ -1,0 +1,77 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=CAD3Q2
+[Library]
+CAD3Q2=.\CAD3Q2\CAD3Q2.lib
+[$LibMap$]
+CAD3Q2=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/Converter.vhd=-1
+/..\..\..\..\..\..\5thsemester\Aminian\CAD_HW03_KimiaSedaghati\CAD3Q2\CAD3Q2\src\untitled.asdb=-1
+/..\..\..\..\..\..\5thsemester\Aminian\CAD_HW03_KimiaSedaghati\CAD3Q2\CAD3Q2\src\untitled.awc=-1
+TestBench/serialtoparallel_TB.vhd=-1
+TestBench/serialtoparallel_TB_runtest.do=-1
+[Files.Data]
+.\src\Converter.vhd=VHDL Source Code
+.\..\..\..\..\..\5thsemester\Aminian\CAD_HW03_KimiaSedaghati\CAD3Q2\CAD3Q2\src\untitled.asdb=Accelerated Waveform File
+.\..\..\..\..\..\5thsemester\Aminian\CAD_HW03_KimiaSedaghati\CAD3Q2\CAD3Q2\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\serialtoparallel_TB.vhd=VHDL Test Bench
+.\src\TestBench\serialtoparallel_TB_runtest.do=Macro
+[HierarchyViewer]
+HierarchyInformation=serialtoparallel_tb|testbench_for_serialtoparallel|1
+ShowHide=ShowTopLevel
+Selected=
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension0=alintws
+name1=Coverage Databases
+directory1=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension1=acdb
+name2=Dll Libraries
+directory2=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension2=dll
+name3=Event Lists
+directory3=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension3=lst
+name4=HTML Files
+directory4=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension4=htm;html
+name5=Log Files
+directory5=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension8=pdf
+name9=Profiler Databases
+directory9=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension9=tbp
+name10=Script Files
+directory10=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=C:\Users\exirh\Desktop\Private\5th semester\Aminian\CAD3Q2\CAD3Q2\
+extension11=asdb;awc;asdbc;asdbe
+[Groups]
+TestBench=1

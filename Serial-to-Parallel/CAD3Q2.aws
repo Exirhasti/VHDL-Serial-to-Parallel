@@ -1,0 +1,14 @@
+[Version]
+Version=13.0
+[Designs]
+cad3q2=.\CAD3Q2\CAD3Q2.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+cad3q2=1
+[Settings]
+Active=cad3q2

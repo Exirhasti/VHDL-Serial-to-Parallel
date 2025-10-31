@@ -1,0 +1,6 @@
+68
+~E 1 "../src/Converter.vhd" 31 SerialToParallel
+~A 1 "../src/Converter.vhd" 18 Arch
+~E 1 "../src/TestBench/serialtoparallel_TB.vhd" 7 serialtoparallel_tb
+~A 1 "../src/TestBench/serialtoparallel_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "../src/TestBench/serialtoparallel_TB.vhd" 82 testbench_for_serialtoparallel
